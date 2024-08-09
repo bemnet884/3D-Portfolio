@@ -9,7 +9,7 @@ import { slideIn } from "../utils/motion"
 
 const Contact = () => {
   const formRef = useRef();
-  const [form, setform] = useState({
+  const [form, setForm] = useState({
     name: '',
     email: '',
     message: '',
@@ -18,10 +18,39 @@ const Contact = () => {
   const [isLoading, setIsLoading] = useState(false);
 
   function handleChange(e) {
-    
+    const { name, value } = e.target;
+    setForm({...form, [name]: value})
   }
+    //5njePOeA6jKl3xD86
+  //template_4rfivlc
+ // service_woj3sk9
   function handleSubmit(e) {
-    
+    e.preventDefault();
+    setIsLoading(true);
+
+    emailjs.send(
+      'service_woj3sk9',
+      'template_4rfivlc',
+    {
+      from_name: form.name,
+      to_name: 'Bemnet',
+      from_email: form.email,
+      to_email: 'hannabemnet94@gmail.com',
+      message: form.message
+    },
+      '5njePOeA6jKl3xD86').then(() => {
+        setIsLoading(false);
+        alert('Thank You.I will get back to you as soon as possible');
+        setForm({
+            name: '',
+            email: '',
+            message: '',
+        }, (error) => {
+          setIsLoading(false);
+          console.log(error);
+          alert('Something went wrong.')
+        })
+      })
   }
   return (
     <div className="xl:mt-12 xl:flex-row flex flex-col-reverse gap-10 overflow-hidden" >

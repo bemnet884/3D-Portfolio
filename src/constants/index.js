@@ -217,6 +217,7 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/bemnet884/3D-Portfolio/",
+    live_demo_link: "https://bemnet884.github.io/3D-Portfolio/",
   },
   {
     name: "Human Hair",
@@ -237,7 +238,8 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://bemnet884.github.io/Human-Hair",
+    source_code_link: "https://github.com/bemnet884/Human-Hair",
+    live_demo_link: "https://bemnet884.github.io/Human-Hair/",
   },
   {
     name: "3D Shop",
@@ -259,7 +261,9 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/bemnet884/3D-Shop",
+    live_demo_link: "https://bemnet884.github.io/Human-Hair/",
   },
 ];
+
 
 export { services, technologies, experiences, testimonials, projects };

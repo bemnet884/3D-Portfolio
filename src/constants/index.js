@@ -117,54 +117,54 @@ const technologies = [
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    company_name: "BlueTech Solutions",
+    icon: starbucks, // Replace with the icon of BlueTech Solutions if available
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained web applications using React.js and other related technologies.",
+      "Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implemented responsive design and ensured cross-browser compatibility.",
+      "Participated in code reviews and provided constructive feedback to other developers.",
     ],
   },
   {
     title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    company_name: "Innovative Apps Inc.",
+    icon: tesla, // Replace with the icon of Innovative Apps Inc. if available
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained mobile applications using React Native.",
+      "Worked closely with designers and product managers to create user-friendly mobile apps.",
+      "Ensured high performance on both iOS and Android platforms.",
+      "Provided guidance and mentorship to junior developers.",
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    company_name: "Global E-Commerce",
+    icon: shopify, // Replace with the icon of Global E-Commerce if available
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built and maintained e-commerce platforms with React.js.",
+      "Implemented innovative solutions for online shopping experiences.",
+      "Collaborated with the design team to ensure brand consistency.",
+      "Optimized web applications for speed and scalability.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Full Stack Developer",
+    company_name: "NextGen Tech",
+    icon: meta, // Replace with the icon of NextGen Tech if available
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining full-stack applications using React.js, Node.js, and MongoDB.",
+      "Leading projects and mentoring junior developers.",
+      "Ensuring high performance and responsiveness of applications.",
+      "Participating in architecture discussions and implementing best practices.",
     ],
   },
 ];
@@ -172,7 +172,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "Bemnet's skills in web development transformed our online presence. The new site is both functional and visually stunning.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -180,7 +180,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "Working with Bemnet was a pleasure. Their dedication to the project was evident in the final product.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -188,7 +188,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "Thanks to Bemnet's optimization, our website traffic increased significantly. Their expertise is unmatched.",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -198,12 +198,54 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "3D Portfolio",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A 3D portfolio website showcasing my work in an interactive and visually appealing way.",
     tags: [
       {
+        name: "threejs",
+        color: "blue-text-gradient",
+      },
+      {
         name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/bemnet884/3D-Portfolio/",
+  },
+  {
+    name: "Human Hair",
+    description:
+      "A simulation of human hair using physics-based rendering, providing realistic visual effects.",
+    tags: [
+      {
+        name: "threejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://github.com/bemnet884/Human-Hair",
+  },
+  {
+    name: "3D Shop",
+    description:
+      "An e-commerce platform featuring 3D models of products, enhancing the online shopping experience.",
+    tags: [
+      {
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
@@ -215,50 +257,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/bemnet884/3D-Shop",
   },
 ];
 

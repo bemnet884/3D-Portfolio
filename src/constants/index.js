@@ -237,7 +237,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/bemnet884/Human-Hair",
+    source_code_link: "https://bemnet884.github.io/Human-Hair",
   },
   {
     name: "3D Shop",

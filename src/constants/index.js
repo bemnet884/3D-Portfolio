@@ -30,10 +30,10 @@ export const navLinks = [
     id: "about",
     title: "About",
   },
-  {
-    id: "work",
-    title: "Work",
-  },
+  // {
+  //   id: "work",
+  //   title: "Work",
+  // },
   {
     id: "contact",
     title: "Contact",
@@ -261,7 +261,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/bemnet884/3D-Shop",
-    live_demo_link: "https://bemnet884.github.io/Human-Hair/",
+    live_demo_link: "https://bemnet884.github.io/3D-Shop/",
   },
 ];
 

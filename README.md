@@ -1,16 +1,3 @@
-That’s awesome! Since your **3D Portfolio** is a showcase of your **skills, experience, and projects**, we’ll tailor the README to highlight **you as a developer** while making it clear that this is a **personal brand website**. This version will:  
-
-✅ **Emphasize your expertise** in **full-stack development & 3D web**.  
-✅ **Highlight UI/UX design** as a key focus.  
-✅ **Explain the technologies used & why they were chosen**.  
-✅ **Include GIFs & live links** to make it engaging.  
-✅ **Make it clear this is a professional portfolio** and not just a project.  
-
----
-
-## 📜 **Optimized README for Your Portfolio**  
-
-```md
 # 🌟 My 3D Developer Portfolio  
 
 🚀 **Welcome to my interactive 3D portfolio!** This website showcases my skills, experience, and projects using **cutting-edge web technologies** like **React, Vite, Three.js, Tailwind CSS, and Framer Motion**.  

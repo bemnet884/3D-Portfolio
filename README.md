@@ -4,7 +4,7 @@
 
 🎨 **I’m a full-stack developer passionate about modern UI/UX, web animations, and 3D experiences.** This portfolio is a mix of **technology, creativity, and interactivity**, designed to engage visitors in a unique way.  
 
-![Portfolio Preview] <img width="1440" alt="Screen Shot 2025-01-29 at 4 03 11 PM" src="https://github.com/user-attachments/assets/23ab31ad-8772-4a37-914f-74009f4045b1" />
+<img width="1440" alt="Screen Shot 2025-01-29 at 4 03 11 PM" src="https://github.com/user-attachments/assets/23ab31ad-8772-4a37-914f-74009f4045b1" />
 
 ## 🔗 **Live Portfolio**  
 🌍 **Check it out here:** [Visit My Website](https://bemnet884.github.io/3D-Portfolio/)  
@@ -109,29 +109,13 @@ export default HeroText;
 
 ---
 
-## 🎯 **Future Improvements & Ideas**  
-
-🚀 Add **WebGL shaders** for advanced lighting & effects  
-📦 Optimize **GLTF 3D models** for better performance  
-🌍 Enhance **SEO & accessibility**  
-
----
-
-## 💡 **Why I Built This Portfolio**  
-
-🌟 **I believe a developer’s portfolio should not just be a list of projects, but an experience.**  
-
-🔹 This website **represents my skills in modern UI/UX, frontend engineering, and interactive design.**  
-🔹 I want to **push the boundaries of creativity in web development** using **3D & animations**.  
-
 If you're looking for a **developer who understands design, animation, and performance**, let’s connect!  
 
 ---
 
 ## 📫 **Connect with Me**  
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://linkedin.com/in/yourprofile)  
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat&logo=github)](https://github.com/yourgithub)  
-[![Twitter](https://img.shields.io/badge/Twitter-Follow-blue?style=flat&logo=twitter)](https://twitter.com/yourtwitter)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://linkedin.com/in/bemnetbeyene)  
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat&logo=github)](https://github.com/bemnet884)  
 
 💬 **Let’s collaborate on modern, interactive web experiences!**  

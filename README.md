@@ -4,10 +4,10 @@
 
 🎨 **I’m a full-stack developer passionate about modern UI/UX, web animations, and 3D experiences.** This portfolio is a mix of **technology, creativity, and interactivity**, designed to engage visitors in a unique way.  
 
-![Portfolio Preview](https://your-image-hosting.com/portfolio-preview.gif)  
+![Portfolio Preview]<img width="1440" alt="Screen Shot 2025-01-29 at 4 03 11 PM" src="https://github.com/user-attachments/assets/23ab31ad-8772-4a37-914f-74009f4045b1" />
 
 ## 🔗 **Live Portfolio**  
-🌍 **Check it out here:** [Visit My Website](https://your-portfolio-live-link.com)  
+🌍 **Check it out here:** [Visit My Website](https://bemnet884.github.io/3D-Portfolio/)  
 
 ---
 

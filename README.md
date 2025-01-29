@@ -66,49 +66,6 @@ yarn dev
 
 ---
 
-## 🎮 **How It Works – Key Features**  
-
-### **🔹 3D Models & Animations with Three.js (R3F)**
-```jsx
-import { Canvas } from "@react-three/fiber";
-import { OrbitControls } from "@react-three/drei";
-import Model from "./Model"; // 3D Model Component
-
-export default function Scene() {
-  return (
-    <Canvas camera={{ position: [0, 1, 5] }}>
-      <ambientLight intensity={0.5} />
-      <directionalLight position={[1, 2, 3]} />
-      <Model />
-      <OrbitControls />
-    </Canvas>
-  );
-}
-```
-
----
-
-### **🖌️ Smooth UI Animations with Framer Motion**
-```jsx
-import { motion } from "framer-motion";
-
-const HeroText = () => {
-  return (
-    <motion.h1
-      initial={{ opacity: 0, y: -50 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 1 }}
-      className="text-4xl font-bold text-center"
-    >
-      Welcome to My 3D Portfolio
-    </motion.h1>
-  );
-};
-export default HeroText;
-```
-
----
-
 If you're looking for a **developer who understands design, animation, and performance**, let’s connect!  
 
 ---
